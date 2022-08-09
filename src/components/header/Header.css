@@ -1,4 +1,31 @@
 .header {
-    vertical-align: middle;
-    border-style: none;
+    background-color: #2f3958d9;
+}
+
+.header .leftSide {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .header .rightSide {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+} */
+
+.caption-utama {
+    font-family: "Orbiton", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700 !important;
+}
+
+.buttonDetail {
+    width: 100px;
+    height: 50px;
+    border-radius: 4px;
+    background-color: #ff9c03;
+    color: white;
+    cursor: pointer;
+    border: none;
 }

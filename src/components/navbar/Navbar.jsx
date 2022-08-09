@@ -17,7 +17,6 @@ const Navbar = () => {
             <div className="rightSide">
                 <input type="text" className="searchBox" placeholder="Cari Game Favoritmu disini!" />
                 <button className="buttonSearch">Cari</button>
-                {/* <img src="https://cdn2.iconfinder.com/data/icons/ios-7-icons/50/search-512.png" className="searchIcon" alt="" /> */}
             </div>
         </div>
     )

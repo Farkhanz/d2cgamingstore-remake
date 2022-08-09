@@ -4,6 +4,74 @@
 }
 
 :root {
+    --heights:40vh;
+    --widths: 100%;
+}
+
+.slider-container {
+    height: var(--heights);
+    width: var(widths);
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+}
+
+.active {
+    display: inline-block;
+}
+
+.inactive {
+    display: none;
+}
+
+.slides {
+    height: var(--heights);
+    width: var(--widths);
+    position: relative;
+}
+
+.slide-image {
+    object-fit: cover;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    z-index: 100;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 1rem;
+    margin-top: -3rem;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.prev:hover,
+.next:hover {
+    color: #ff9c03;
+    background-color: rgb(255, 255, 255);
+    transition: all 2s ease-in;
+}
+
+.next {
+    right: 0;
+    border-radius: 5px 0px 0px 5px;
+}
+
+
+
+
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root {
     --heights: 50vh;
     --widths: 100%;
 }
@@ -13,6 +81,7 @@
     width: var(--widths);
     position: relative;
     margin: auto;
+    bottom: 3%;
     overflow: hidden;
 }
 
@@ -103,4 +172,4 @@
 .active-dot,
 .dot:hover {
     background-color: rgba(255, 255, 255, 0.5);
-}
+}  */
